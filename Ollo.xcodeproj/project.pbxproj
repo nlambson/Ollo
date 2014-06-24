@@ -27,6 +27,30 @@
 		B53877451958F7C70080A707 /* HLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = B538773C1958F7C70080A707 /* HLAction.m */; };
 		B53877461958F7C70080A707 /* HLActionCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B538773E1958F7C70080A707 /* HLActionCollectionViewController.m */; };
 		B53877471958F7C70080A707 /* HLActionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B53877401958F7C70080A707 /* HLActionCollectionViewCell.m */; };
+		B53877641958FA2D0080A707 /* 3D-simplicity.png in Resources */ = {isa = PBXBuildFile; fileRef = B538774C1958FA2D0080A707 /* 3D-simplicity.png */; };
+		B53877651958FA2D0080A707 /* AppleTV-esque_by-mikelcroft_nl-1440.png in Resources */ = {isa = PBXBuildFile; fileRef = B538774D1958FA2D0080A707 /* AppleTV-esque_by-mikelcroft_nl-1440.png */; };
+		B53877661958FA2D0080A707 /* batman_surfing_on_superman.png in Resources */ = {isa = PBXBuildFile; fileRef = B538774E1958FA2D0080A707 /* batman_surfing_on_superman.png */; };
+		B53877671958FA2D0080A707 /* coffee-break_.png in Resources */ = {isa = PBXBuildFile; fileRef = B538774F1958FA2D0080A707 /* coffee-break_.png */; };
+		B53877681958FA2D0080A707 /* colorful_1440x900.png in Resources */ = {isa = PBXBuildFile; fileRef = B53877501958FA2D0080A707 /* colorful_1440x900.png */; };
+		B53877691958FA2D0080A707 /* Composition53.png in Resources */ = {isa = PBXBuildFile; fileRef = B53877511958FA2D0080A707 /* Composition53.png */; };
+		B538776A1958FA2D0080A707 /* Dragon.png in Resources */ = {isa = PBXBuildFile; fileRef = B53877521958FA2D0080A707 /* Dragon.png */; };
+		B538776B1958FA2D0080A707 /* eclipse.png in Resources */ = {isa = PBXBuildFile; fileRef = B53877531958FA2D0080A707 /* eclipse.png */; };
+		B538776C1958FA2D0080A707 /* face.png in Resources */ = {isa = PBXBuildFile; fileRef = B53877541958FA2D0080A707 /* face.png */; };
+		B538776D1958FA2D0080A707 /* focus.png in Resources */ = {isa = PBXBuildFile; fileRef = B53877551958FA2D0080A707 /* focus.png */; };
+		B538776E1958FA2D0080A707 /* gbo.png in Resources */ = {isa = PBXBuildFile; fileRef = B53877561958FA2D0080A707 /* gbo.png */; };
+		B538776F1958FA2D0080A707 /* Green_Plant_(2560x1600).png in Resources */ = {isa = PBXBuildFile; fileRef = B53877571958FA2D0080A707 /* Green_Plant_(2560x1600).png */; };
+		B53877701958FA2D0080A707 /* grounded.png in Resources */ = {isa = PBXBuildFile; fileRef = B53877581958FA2D0080A707 /* grounded.png */; };
+		B53877711958FA2D0080A707 /* happy.png in Resources */ = {isa = PBXBuildFile; fileRef = B53877591958FA2D0080A707 /* happy.png */; };
+		B53877721958FA2D0080A707 /* LeatherHoles-Apple.png in Resources */ = {isa = PBXBuildFile; fileRef = B538775A1958FA2D0080A707 /* LeatherHoles-Apple.png */; };
+		B53877731958FA2D0080A707 /* Let_it_snow_by_mj_coffeeholick.png in Resources */ = {isa = PBXBuildFile; fileRef = B538775B1958FA2D0080A707 /* Let_it_snow_by_mj_coffeeholick.png */; };
+		B53877741958FA2D0080A707 /* Luxury_Apple_by_Stratification.png in Resources */ = {isa = PBXBuildFile; fileRef = B538775C1958FA2D0080A707 /* Luxury_Apple_by_Stratification.png */; };
+		B53877751958FA2D0080A707 /* MacMini.png in Resources */ = {isa = PBXBuildFile; fileRef = B538775D1958FA2D0080A707 /* MacMini.png */; };
+		B53877761958FA2D0080A707 /* SlaveKingGod.png in Resources */ = {isa = PBXBuildFile; fileRef = B538775E1958FA2D0080A707 /* SlaveKingGod.png */; };
+		B53877771958FA2D0080A707 /* Snow_Leopard_by_vladstudio.png in Resources */ = {isa = PBXBuildFile; fileRef = B538775F1958FA2D0080A707 /* Snow_Leopard_by_vladstudio.png */; };
+		B53877781958FA2D0080A707 /* Space Fold.png in Resources */ = {isa = PBXBuildFile; fileRef = B53877601958FA2D0080A707 /* Space Fold.png */; };
+		B53877791958FA2D0080A707 /* Stormcloud_Schmeisser.png in Resources */ = {isa = PBXBuildFile; fileRef = B53877611958FA2D0080A707 /* Stormcloud_Schmeisser.png */; };
+		B538777A1958FA2D0080A707 /* tiamat.png in Resources */ = {isa = PBXBuildFile; fileRef = B53877621958FA2D0080A707 /* tiamat.png */; };
+		B538777B1958FA2D0080A707 /* WTF.png in Resources */ = {isa = PBXBuildFile; fileRef = B53877631958FA2D0080A707 /* WTF.png */; };
 		E29E8A081FD542FE9F104A7B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4906E8342C46E9ADFE69F1 /* libPods.a */; };
 /* End PBXBuildFile section */
 
@@ -73,6 +97,30 @@
 		B538773E1958F7C70080A707 /* HLActionCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLActionCollectionViewController.m; sourceTree = "<group>"; };
 		B538773F1958F7C70080A707 /* HLActionCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLActionCollectionViewCell.h; sourceTree = "<group>"; };
 		B53877401958F7C70080A707 /* HLActionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLActionCollectionViewCell.m; sourceTree = "<group>"; };
+		B538774C1958FA2D0080A707 /* 3D-simplicity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3D-simplicity.png"; sourceTree = "<group>"; };
+		B538774D1958FA2D0080A707 /* AppleTV-esque_by-mikelcroft_nl-1440.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "AppleTV-esque_by-mikelcroft_nl-1440.png"; sourceTree = "<group>"; };
+		B538774E1958FA2D0080A707 /* batman_surfing_on_superman.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = batman_surfing_on_superman.png; sourceTree = "<group>"; };
+		B538774F1958FA2D0080A707 /* coffee-break_.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "coffee-break_.png"; sourceTree = "<group>"; };
+		B53877501958FA2D0080A707 /* colorful_1440x900.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = colorful_1440x900.png; sourceTree = "<group>"; };
+		B53877511958FA2D0080A707 /* Composition53.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Composition53.png; sourceTree = "<group>"; };
+		B53877521958FA2D0080A707 /* Dragon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Dragon.png; sourceTree = "<group>"; };
+		B53877531958FA2D0080A707 /* eclipse.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eclipse.png; sourceTree = "<group>"; };
+		B53877541958FA2D0080A707 /* face.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = face.png; sourceTree = "<group>"; };
+		B53877551958FA2D0080A707 /* focus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = focus.png; sourceTree = "<group>"; };
+		B53877561958FA2D0080A707 /* gbo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gbo.png; sourceTree = "<group>"; };
+		B53877571958FA2D0080A707 /* Green_Plant_(2560x1600).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Green_Plant_(2560x1600).png"; sourceTree = "<group>"; };
+		B53877581958FA2D0080A707 /* grounded.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = grounded.png; sourceTree = "<group>"; };
+		B53877591958FA2D0080A707 /* happy.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happy.png; sourceTree = "<group>"; };
+		B538775A1958FA2D0080A707 /* LeatherHoles-Apple.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LeatherHoles-Apple.png"; sourceTree = "<group>"; };
+		B538775B1958FA2D0080A707 /* Let_it_snow_by_mj_coffeeholick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Let_it_snow_by_mj_coffeeholick.png; sourceTree = "<group>"; };
+		B538775C1958FA2D0080A707 /* Luxury_Apple_by_Stratification.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Luxury_Apple_by_Stratification.png; sourceTree = "<group>"; };
+		B538775D1958FA2D0080A707 /* MacMini.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MacMini.png; sourceTree = "<group>"; };
+		B538775E1958FA2D0080A707 /* SlaveKingGod.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SlaveKingGod.png; sourceTree = "<group>"; };
+		B538775F1958FA2D0080A707 /* Snow_Leopard_by_vladstudio.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snow_Leopard_by_vladstudio.png; sourceTree = "<group>"; };
+		B53877601958FA2D0080A707 /* Space Fold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Space Fold.png"; sourceTree = "<group>"; };
+		B53877611958FA2D0080A707 /* Stormcloud_Schmeisser.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Stormcloud_Schmeisser.png; sourceTree = "<group>"; };
+		B53877621958FA2D0080A707 /* tiamat.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tiamat.png; sourceTree = "<group>"; };
+		B53877631958FA2D0080A707 /* WTF.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = WTF.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,6 +191,7 @@
 				B53877491958F7D70080A707 /* Model */,
 				B538774A1958F7E00080A707 /* Networking */,
 				B538774B1958F7F40080A707 /* Categories */,
+				B538777C1958FA340080A707 /* Images */,
 				B53877121958F6FE0080A707 /* Images.xcassets */,
 				B53877071958F6FE0080A707 /* Supporting Files */,
 			);
@@ -218,6 +267,37 @@
 			name = Categories;
 			sourceTree = "<group>";
 		};
+		B538777C1958FA340080A707 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				B538774C1958FA2D0080A707 /* 3D-simplicity.png */,
+				B538774D1958FA2D0080A707 /* AppleTV-esque_by-mikelcroft_nl-1440.png */,
+				B538774E1958FA2D0080A707 /* batman_surfing_on_superman.png */,
+				B538774F1958FA2D0080A707 /* coffee-break_.png */,
+				B53877501958FA2D0080A707 /* colorful_1440x900.png */,
+				B53877511958FA2D0080A707 /* Composition53.png */,
+				B53877521958FA2D0080A707 /* Dragon.png */,
+				B53877531958FA2D0080A707 /* eclipse.png */,
+				B53877541958FA2D0080A707 /* face.png */,
+				B53877551958FA2D0080A707 /* focus.png */,
+				B53877561958FA2D0080A707 /* gbo.png */,
+				B53877571958FA2D0080A707 /* Green_Plant_(2560x1600).png */,
+				B53877581958FA2D0080A707 /* grounded.png */,
+				B53877591958FA2D0080A707 /* happy.png */,
+				B538775A1958FA2D0080A707 /* LeatherHoles-Apple.png */,
+				B538775B1958FA2D0080A707 /* Let_it_snow_by_mj_coffeeholick.png */,
+				B538775C1958FA2D0080A707 /* Luxury_Apple_by_Stratification.png */,
+				B538775D1958FA2D0080A707 /* MacMini.png */,
+				B538775E1958FA2D0080A707 /* SlaveKingGod.png */,
+				B538775F1958FA2D0080A707 /* Snow_Leopard_by_vladstudio.png */,
+				B53877601958FA2D0080A707 /* Space Fold.png */,
+				B53877611958FA2D0080A707 /* Stormcloud_Schmeisser.png */,
+				B53877621958FA2D0080A707 /* tiamat.png */,
+				B53877631958FA2D0080A707 /* WTF.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -268,6 +348,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = nlambson;
 				TargetAttributes = {
+					B53876FC1958F6FE0080A707 = {
+						DevelopmentTeam = 429BU58AR4;
+					};
 					B53877171958F6FE0080A707 = {
 						TestTargetID = B53876FC1958F6FE0080A707;
 					};
@@ -298,8 +381,32 @@
 			files = (
 				B538770B1958F6FE0080A707 /* InfoPlist.strings in Resources */,
 				B53877311958F7A80080A707 /* Main-iPhone.storyboard in Resources */,
+				B53877661958FA2D0080A707 /* batman_surfing_on_superman.png in Resources */,
+				B538777B1958FA2D0080A707 /* WTF.png in Resources */,
+				B538776A1958FA2D0080A707 /* Dragon.png in Resources */,
+				B53877651958FA2D0080A707 /* AppleTV-esque_by-mikelcroft_nl-1440.png in Resources */,
+				B53877641958FA2D0080A707 /* 3D-simplicity.png in Resources */,
+				B53877771958FA2D0080A707 /* Snow_Leopard_by_vladstudio.png in Resources */,
+				B53877671958FA2D0080A707 /* coffee-break_.png in Resources */,
+				B538776B1958FA2D0080A707 /* eclipse.png in Resources */,
+				B53877711958FA2D0080A707 /* happy.png in Resources */,
+				B538776C1958FA2D0080A707 /* face.png in Resources */,
+				B538776F1958FA2D0080A707 /* Green_Plant_(2560x1600).png in Resources */,
+				B538777A1958FA2D0080A707 /* tiamat.png in Resources */,
 				B53877131958F6FE0080A707 /* Images.xcassets in Resources */,
+				B53877701958FA2D0080A707 /* grounded.png in Resources */,
+				B53877731958FA2D0080A707 /* Let_it_snow_by_mj_coffeeholick.png in Resources */,
+				B53877791958FA2D0080A707 /* Stormcloud_Schmeisser.png in Resources */,
+				B53877741958FA2D0080A707 /* Luxury_Apple_by_Stratification.png in Resources */,
+				B53877681958FA2D0080A707 /* colorful_1440x900.png in Resources */,
+				B53877691958FA2D0080A707 /* Composition53.png in Resources */,
+				B53877781958FA2D0080A707 /* Space Fold.png in Resources */,
+				B53877761958FA2D0080A707 /* SlaveKingGod.png in Resources */,
+				B538776E1958FA2D0080A707 /* gbo.png in Resources */,
+				B53877751958FA2D0080A707 /* MacMini.png in Resources */,
+				B538776D1958FA2D0080A707 /* focus.png in Resources */,
 				B53877321958F7A80080A707 /* Main-iPad.storyboard in Resources */,
+				B53877721958FA2D0080A707 /* LeatherHoles-Apple.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -478,9 +585,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ollo/Ollo-Prefix.pch";
 				INFOPLIST_FILE = "Ollo/Ollo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -492,9 +601,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Ollo/Ollo-Prefix.pch";
 				INFOPLIST_FILE = "Ollo/Ollo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

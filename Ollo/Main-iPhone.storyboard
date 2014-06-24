@@ -4,53 +4,6 @@
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3733"/>
     </dependencies>
     <scenes>
-        <!--View Controller - iPhone Main-->
-        <scene sceneID="BIo-fg-pOi">
-            <objects>
-                <viewController title="iPhone Main" id="bvm-d8-k4j" customClass="HLViewController" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="0fm-fA-vsr"/>
-                        <viewControllerLayoutGuide type="bottom" id="07O-wS-Mn1"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="lbo-JV-3Pg">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VXt-ie-5m8" customClass="AQGridView">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
-                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                            </view>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="Es4-fU-ksR"/>
-                    <connections>
-                        <outlet property="gridView" destination="VXt-ie-5m8" id="Cpd-ee-wyF"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="D5S-Kq-x06" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1554" y="-377"/>
-        </scene>
-        <!--Navigation Controller-->
-        <scene sceneID="ORn-0l-lGz">
-            <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7hB-Vd-RMs" sceneMemberID="viewController">
-                    <toolbarItems/>
-                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dbT-sB-SYV">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
-                        <autoresizingMask key="autoresizingMask"/>
-                    </navigationBar>
-                    <nil name="viewControllers"/>
-                    <connections>
-                        <segue destination="bvm-d8-k4j" kind="relationship" relationship="rootViewController" id="dH8-tZ-1tP"/>
-                    </connections>
-                </navigationController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="OQR-RR-JqB" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1028" y="-377"/>
-        </scene>
         <!--Action Collection View Controller-->
         <scene sceneID="MTx-Zr-ruH">
             <objects>
