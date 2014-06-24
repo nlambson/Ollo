@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B53877011958F6FE0080A707 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53877001958F6FE0080A707 /* Foundation.framework */; };
+		B53877031958F6FE0080A707 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53877021958F6FE0080A707 /* CoreGraphics.framework */; };
+		B53877051958F6FE0080A707 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53877041958F6FE0080A707 /* UIKit.framework */; };
+		B538770B1958F6FE0080A707 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B53877091958F6FE0080A707 /* InfoPlist.strings */; };
+		B538770D1958F6FE0080A707 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B538770C1958F6FE0080A707 /* main.m */; };
+		B53877111958F6FE0080A707 /* HLAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B53877101958F6FE0080A707 /* HLAppDelegate.m */; };
+		B53877131958F6FE0080A707 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B53877121958F6FE0080A707 /* Images.xcassets */; };
+		B538771A1958F6FE0080A707 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53877191958F6FE0080A707 /* XCTest.framework */; };
+		B538771B1958F6FE0080A707 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53877001958F6FE0080A707 /* Foundation.framework */; };
+		B538771C1958F6FE0080A707 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B53877041958F6FE0080A707 /* UIKit.framework */; };
+		B53877241958F6FE0080A707 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B53877221958F6FE0080A707 /* InfoPlist.strings */; };
+		B53877261958F6FE0080A707 /* OlloTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B53877251958F6FE0080A707 /* OlloTests.m */; };
+		B53877311958F7A80080A707 /* Main-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B538772F1958F7A80080A707 /* Main-iPhone.storyboard */; };
+		B53877321958F7A80080A707 /* Main-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B53877301958F7A80080A707 /* Main-iPad.storyboard */; };
+		B53877421958F7C70080A707 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = B53877361958F7C70080A707 /* UIImage+Alpha.m */; };
+		B53877431958F7C70080A707 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = B53877381958F7C70080A707 /* UIImage+Resize.m */; };
+		B53877441958F7C70080A707 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = B538773A1958F7C70080A707 /* UIImage+RoundedCorner.m */; };
+		B53877451958F7C70080A707 /* HLAction.m in Sources */ = {isa = PBXBuildFile; fileRef = B538773C1958F7C70080A707 /* HLAction.m */; };
+		B53877461958F7C70080A707 /* HLActionCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B538773E1958F7C70080A707 /* HLActionCollectionViewController.m */; };
+		B53877471958F7C70080A707 /* HLActionCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B53877401958F7C70080A707 /* HLActionCollectionViewCell.m */; };
+		E29E8A081FD542FE9F104A7B /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B4906E8342C46E9ADFE69F1 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B538771D1958F6FE0080A707 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B53876F51958F6FE0080A707 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B53876FC1958F6FE0080A707;
+			remoteInfo = Ollo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5B4906E8342C46E9ADFE69F1 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		81EE5F644C544313822DCC23 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+		B53876FD1958F6FE0080A707 /* Ollo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ollo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53877001958F6FE0080A707 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B53877021958F6FE0080A707 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B53877041958F6FE0080A707 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B53877081958F6FE0080A707 /* Ollo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Ollo-Info.plist"; sourceTree = "<group>"; };
+		B538770A1958F6FE0080A707 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B538770C1958F6FE0080A707 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B538770E1958F6FE0080A707 /* Ollo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Ollo-Prefix.pch"; sourceTree = "<group>"; };
+		B538770F1958F6FE0080A707 /* HLAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HLAppDelegate.h; sourceTree = "<group>"; };
+		B53877101958F6FE0080A707 /* HLAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HLAppDelegate.m; sourceTree = "<group>"; };
+		B53877121958F6FE0080A707 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B53877181958F6FE0080A707 /* OlloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OlloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B53877191958F6FE0080A707 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B53877211958F6FE0080A707 /* OlloTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OlloTests-Info.plist"; sourceTree = "<group>"; };
+		B53877231958F6FE0080A707 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B53877251958F6FE0080A707 /* OlloTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OlloTests.m; sourceTree = "<group>"; };
+		B538772F1958F7A80080A707 /* Main-iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-iPhone.storyboard"; sourceTree = "<group>"; };
+		B53877301958F7A80080A707 /* Main-iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Main-iPad.storyboard"; sourceTree = "<group>"; };
+		B53877351958F7C70080A707 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		B53877361958F7C70080A707 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		B53877371958F7C70080A707 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		B53877381958F7C70080A707 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		B53877391958F7C70080A707 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		B538773A1958F7C70080A707 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		B538773B1958F7C70080A707 /* HLAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLAction.h; sourceTree = "<group>"; };
+		B538773C1958F7C70080A707 /* HLAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLAction.m; sourceTree = "<group>"; };
+		B538773D1958F7C70080A707 /* HLActionCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLActionCollectionViewController.h; sourceTree = "<group>"; };
+		B538773E1958F7C70080A707 /* HLActionCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLActionCollectionViewController.m; sourceTree = "<group>"; };
+		B538773F1958F7C70080A707 /* HLActionCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLActionCollectionViewCell.h; sourceTree = "<group>"; };
+		B53877401958F7C70080A707 /* HLActionCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLActionCollectionViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B53876FA1958F6FE0080A707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53877031958F6FE0080A707 /* CoreGraphics.framework in Frameworks */,
+				B53877051958F6FE0080A707 /* UIKit.framework in Frameworks */,
+				B53877011958F6FE0080A707 /* Foundation.framework in Frameworks */,
+				E29E8A081FD542FE9F104A7B /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53877151958F6FE0080A707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B538771A1958F6FE0080A707 /* XCTest.framework in Frameworks */,
+				B538771C1958F6FE0080A707 /* UIKit.framework in Frameworks */,
+				B538771B1958F6FE0080A707 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B53876F41958F6FE0080A707 = {
+			isa = PBXGroup;
+			children = (
+				B53877061958F6FE0080A707 /* Ollo */,
+				B538771F1958F6FE0080A707 /* OlloTests */,
+				B53876FF1958F6FE0080A707 /* Frameworks */,
+				B53876FE1958F6FE0080A707 /* Products */,
+				81EE5F644C544313822DCC23 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		B53876FE1958F6FE0080A707 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B53876FD1958F6FE0080A707 /* Ollo.app */,
+				B53877181958F6FE0080A707 /* OlloTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B53876FF1958F6FE0080A707 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B53877001958F6FE0080A707 /* Foundation.framework */,
+				B53877021958F6FE0080A707 /* CoreGraphics.framework */,
+				B53877041958F6FE0080A707 /* UIKit.framework */,
+				B53877191958F6FE0080A707 /* XCTest.framework */,
+				5B4906E8342C46E9ADFE69F1 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B53877061958F6FE0080A707 /* Ollo */ = {
+			isa = PBXGroup;
+			children = (
+				B538772F1958F7A80080A707 /* Main-iPhone.storyboard */,
+				B53877301958F7A80080A707 /* Main-iPad.storyboard */,
+				B538770F1958F6FE0080A707 /* HLAppDelegate.h */,
+				B53877101958F6FE0080A707 /* HLAppDelegate.m */,
+				B53877481958F7D00080A707 /* ViewsControllers */,
+				B53877491958F7D70080A707 /* Model */,
+				B538774A1958F7E00080A707 /* Networking */,
+				B538774B1958F7F40080A707 /* Categories */,
+				B53877121958F6FE0080A707 /* Images.xcassets */,
+				B53877071958F6FE0080A707 /* Supporting Files */,
+			);
+			path = Ollo;
+			sourceTree = "<group>";
+		};
+		B53877071958F6FE0080A707 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B53877081958F6FE0080A707 /* Ollo-Info.plist */,
+				B53877091958F6FE0080A707 /* InfoPlist.strings */,
+				B538770C1958F6FE0080A707 /* main.m */,
+				B538770E1958F6FE0080A707 /* Ollo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B538771F1958F6FE0080A707 /* OlloTests */ = {
+			isa = PBXGroup;
+			children = (
+				B53877251958F6FE0080A707 /* OlloTests.m */,
+				B53877201958F6FE0080A707 /* Supporting Files */,
+			);
+			path = OlloTests;
+			sourceTree = "<group>";
+		};
+		B53877201958F6FE0080A707 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B53877211958F6FE0080A707 /* OlloTests-Info.plist */,
+				B53877221958F6FE0080A707 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B53877481958F7D00080A707 /* ViewsControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B538773D1958F7C70080A707 /* HLActionCollectionViewController.h */,
+				B538773E1958F7C70080A707 /* HLActionCollectionViewController.m */,
+				B538773F1958F7C70080A707 /* HLActionCollectionViewCell.h */,
+				B53877401958F7C70080A707 /* HLActionCollectionViewCell.m */,
+			);
+			name = ViewsControllers;
+			sourceTree = "<group>";
+		};
+		B53877491958F7D70080A707 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B538773B1958F7C70080A707 /* HLAction.h */,
+				B538773C1958F7C70080A707 /* HLAction.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		B538774A1958F7E00080A707 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Networking;
+			sourceTree = "<group>";
+		};
+		B538774B1958F7F40080A707 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				B53877351958F7C70080A707 /* UIImage+Alpha.h */,
+				B53877361958F7C70080A707 /* UIImage+Alpha.m */,
+				B53877371958F7C70080A707 /* UIImage+Resize.h */,
+				B53877381958F7C70080A707 /* UIImage+Resize.m */,
+				B53877391958F7C70080A707 /* UIImage+RoundedCorner.h */,
+				B538773A1958F7C70080A707 /* UIImage+RoundedCorner.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B53876FC1958F6FE0080A707 /* Ollo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B53877291958F6FE0080A707 /* Build configuration list for PBXNativeTarget "Ollo" */;
+			buildPhases = (
+				52A6B50BC3E943BBB4E23CEF /* Check Pods Manifest.lock */,
+				B53876F91958F6FE0080A707 /* Sources */,
+				B53876FA1958F6FE0080A707 /* Frameworks */,
+				B53876FB1958F6FE0080A707 /* Resources */,
+				8287770C22D2403DB48B0C7D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ollo;
+			productName = Ollo;
+			productReference = B53876FD1958F6FE0080A707 /* Ollo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B53877171958F6FE0080A707 /* OlloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B538772C1958F6FE0080A707 /* Build configuration list for PBXNativeTarget "OlloTests" */;
+			buildPhases = (
+				B53877141958F6FE0080A707 /* Sources */,
+				B53877151958F6FE0080A707 /* Frameworks */,
+				B53877161958F6FE0080A707 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B538771E1958F6FE0080A707 /* PBXTargetDependency */,
+			);
+			name = OlloTests;
+			productName = OlloTests;
+			productReference = B53877181958F6FE0080A707 /* OlloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B53876F51958F6FE0080A707 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = HL;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = nlambson;
+				TargetAttributes = {
+					B53877171958F6FE0080A707 = {
+						TestTargetID = B53876FC1958F6FE0080A707;
+					};
+				};
+			};
+			buildConfigurationList = B53876F81958F6FE0080A707 /* Build configuration list for PBXProject "Ollo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B53876F41958F6FE0080A707;
+			productRefGroup = B53876FE1958F6FE0080A707 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B53876FC1958F6FE0080A707 /* Ollo */,
+				B53877171958F6FE0080A707 /* OlloTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B53876FB1958F6FE0080A707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B538770B1958F6FE0080A707 /* InfoPlist.strings in Resources */,
+				B53877311958F7A80080A707 /* Main-iPhone.storyboard in Resources */,
+				B53877131958F6FE0080A707 /* Images.xcassets in Resources */,
+				B53877321958F7A80080A707 /* Main-iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53877161958F6FE0080A707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53877241958F6FE0080A707 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52A6B50BC3E943BBB4E23CEF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8287770C22D2403DB48B0C7D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B53876F91958F6FE0080A707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53877421958F7C70080A707 /* UIImage+Alpha.m in Sources */,
+				B53877111958F6FE0080A707 /* HLAppDelegate.m in Sources */,
+				B53877471958F7C70080A707 /* HLActionCollectionViewCell.m in Sources */,
+				B53877461958F7C70080A707 /* HLActionCollectionViewController.m in Sources */,
+				B538770D1958F6FE0080A707 /* main.m in Sources */,
+				B53877441958F7C70080A707 /* UIImage+RoundedCorner.m in Sources */,
+				B53877451958F7C70080A707 /* HLAction.m in Sources */,
+				B53877431958F7C70080A707 /* UIImage+Resize.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B53877141958F6FE0080A707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53877261958F6FE0080A707 /* OlloTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B538771E1958F6FE0080A707 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B53876FC1958F6FE0080A707 /* Ollo */;
+			targetProxy = B538771D1958F6FE0080A707 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B53877091958F6FE0080A707 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B538770A1958F6FE0080A707 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B53877221958F6FE0080A707 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B53877231958F6FE0080A707 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B53877271958F6FE0080A707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B53877281958F6FE0080A707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B538772A1958F6FE0080A707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81EE5F644C544313822DCC23 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ollo/Ollo-Prefix.pch";
+				INFOPLIST_FILE = "Ollo/Ollo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B538772B1958F6FE0080A707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81EE5F644C544313822DCC23 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ollo/Ollo-Prefix.pch";
+				INFOPLIST_FILE = "Ollo/Ollo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B538772D1958F6FE0080A707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ollo.app/Ollo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ollo/Ollo-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OlloTests/OlloTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B538772E1958F6FE0080A707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Ollo.app/Ollo";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Ollo/Ollo-Prefix.pch";
+				INFOPLIST_FILE = "OlloTests/OlloTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B53876F81958F6FE0080A707 /* Build configuration list for PBXProject "Ollo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53877271958F6FE0080A707 /* Debug */,
+				B53877281958F6FE0080A707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B53877291958F6FE0080A707 /* Build configuration list for PBXNativeTarget "Ollo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B538772A1958F6FE0080A707 /* Debug */,
+				B538772B1958F6FE0080A707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B538772C1958F6FE0080A707 /* Build configuration list for PBXNativeTarget "OlloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B538772D1958F6FE0080A707 /* Debug */,
+				B538772E1958F6FE0080A707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B53876F51958F6FE0080A707 /* Project object */;
+}

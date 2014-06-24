@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>D32D2E0E-9176-464B-963A-85DB7EF5BA32</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Ollo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>99416952-98FE-4DB9-BDEF-9317915F9338</key>
+		<string>https://github.com/nlambson/HeyListen.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Ollo/Ollo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>99416952-98FE-4DB9-BDEF-9317915F9338</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/nlambson/HeyListen.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>99416952-98FE-4DB9-BDEF-9317915F9338</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>99416952-98FE-4DB9-BDEF-9317915F9338</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Ollo</string>
+		</dict>
+	</array>
+</dict>
+</plist>
